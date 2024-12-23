@@ -863,4 +863,4 @@ Juntil(Soperation -eq 4)
 
 )until($Choice Main_menu-eq 3)
 
-Create-Log -Op "Program" -Category 1 -Event ID 1002 -Message "OMS Tool Terminated by Senv: USERNAME"
+Create-Log -Op "Program" -Category 1 -Event ID 1002 -Message "OMS Tool Terminated by $env: USERNAME"
